@@ -194,16 +194,12 @@
 }
 
 .notFound {
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20%;
   justify-content: center;
-  width: 660px;
-  text-align: center;
-  gap: 24px;
 }
-
 .notFound > h2 {
   color: #2d2d2d;
   font-weight: 700;
@@ -218,6 +214,33 @@
   line-height: 24px;
   text-align: center;
   color: #757575;
+}
+
+@media (max-width: 700px) {
+  .notFound > h2 {
+    font-size: 16px;
+  }
+
+  .notFound > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .notFound {
+    justify-content: flex-start;
+    padding-top: 40px;
+  }
+
+  .notFound > h2 {
+    font-size: 16px;
+  }
+
+  .notFound > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 .notFound.dark > h2 {
