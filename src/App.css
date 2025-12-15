@@ -1,0 +1,9 @@
+* {
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+body.dark-mode {
+  background-color: black;
+  color: white;
+}

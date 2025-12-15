@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  max-width: 737px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightControls {
+  display: flex;
+  align-items: center;
+}
+
+.fontSelector {
+  position: relative;
+}
+
+.fontSelectBtn {
+  display: flex;
+  gap: 18px;
+  cursor: pointer;
+}
+
+.fontName {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.fontOptions {
+  background-color: white;
+  box-shadow: 0px 5px 30px 0px #0000001a;
+  position: absolute;
+  width: 183px;
+  height: 152px;
+  left: -50px;
+  top: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.fontOptions.dark {
+  background-color: black;
+  color: white;
+}
+
+.option {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.option:hover {
+  color: #a445ed;
+}
+
+.divider {
+  margin-left: 26px;
+  margin-right: 26px;
+  background-color: #e9e9e9;
+  width: 1px;
+  height: 32px;
+}
+
+.darkModeToggle {
+  margin-right: 20px;
+}
+
+.toggleIcon {
+  cursor: pointer;
+}
