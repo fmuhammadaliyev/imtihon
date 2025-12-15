@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import styles from "./Dictionary.module.css";
 import playIcon from "/images/icon-play.svg";
-import newWindowIcon from "/images/icon-new-window.svg";
+// import newWindowIcon from "/images/icon-new-window.svg";
 
 export default function Dictionary({ darkTheme, fontFamily }) {
   const [searchWord, setSearchWord] = useState("");
